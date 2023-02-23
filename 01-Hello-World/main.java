@@ -1,7 +1,7 @@
-package helloworld;
+package main;
 
 
-public class HelloWorld {
+public class Main {
 
     
     public static void main(String[] args) {
