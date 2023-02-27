@@ -13,5 +13,9 @@ public class Typecasting {
         // byte c = 100;
         // int d = a*b/c;
         // System.out.println(d);
+
+        //if we have multiple -datatypes then the result is in the bigger one
+        // eg - float + int -short = double
+        //eg- byte*byte/integer=integer 
     }
 }
