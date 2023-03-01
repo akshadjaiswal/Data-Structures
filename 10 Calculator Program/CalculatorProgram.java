@@ -1,6 +1,5 @@
 package com.akshad;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class CalculatorProgram {
