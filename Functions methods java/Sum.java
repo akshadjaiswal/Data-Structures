@@ -2,9 +2,18 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-        int ans=sum2();
+        // sum();
+        // int ans=sum2();
+        int ans=sum3(50,60);
         System.out.println(ans);
     }
+
+    //pass the value of number when you are calling the method from main
+    static int sum3(int a, int b) {
+        int ans = a + b;
+        return ans;
+    }
+
     //return the value
     static int sum2(){
         Scanner in = new Scanner(System.in);
