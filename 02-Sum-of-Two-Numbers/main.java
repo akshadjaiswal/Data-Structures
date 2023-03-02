@@ -1,12 +1,12 @@
-package main;
-public class Main {
-
+public class main {
     public static void main(String[] args) {
-        int x = 89; 
-        int y = 43;
-        int sum = x + y;
-        
-        System.out.println("Sum is " + sum);
+        int a=10;
+        int b=20;
+        System.out.println("Before swaping a="+a+ " b="+b);
+
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("After swaping a="+a+ " b="+b);
     }
-    
 }
