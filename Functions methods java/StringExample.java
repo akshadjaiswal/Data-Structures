@@ -2,8 +2,10 @@ public class StringExample {
     public static void main(String[] args) {
         // String ans = greet();
         // System.out.println(ans);
-        
-        String personalized=mygreet("Akshad Jaiswal");
+        Scanner in=new Scanner(System.in);
+        System.out.print("Enter your name baby- ");
+        String name=in.next();
+        String personalized=mygreet(name);
         System.out.println(personalized);
     }
     //passing parameter function
