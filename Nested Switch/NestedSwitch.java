@@ -42,7 +42,7 @@ public class NestedSwitch {
                     default -> System.out.println("No department");
                 }
             }
-            default -> System.out.println("Enter valid employee id");
+            default -> System.out.println("Enter valid employee  id");
         }
 
     }
