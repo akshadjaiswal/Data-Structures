@@ -1,4 +1,4 @@
-public class primitives {
+public class Main {
     public static void main(String[] args) {
         int rollNo= 3516;
         char letter = 'A';
