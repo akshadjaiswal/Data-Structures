@@ -1,17 +1,12 @@
-package main;
 public class Main {
+    public static void main(String[] args) {
+        int a=10;
+        int b=20;
+        System.out.println("Before swaping a="+a+ " b="+b);
 
-public static void main(String[] args) {
-	int a = 10;
-	int b = 20;
-
-    System.out.println("a is " + a + " and b is " + b);
-
-	a = a + b;
-	b = a - b;
-	a = a - b;
-
-    System.out.println("After swapping, a is " + a + " and b is " + b);
+        int temp=a;
+        a=b;
+        b = temp;
+        System.out.println("After swaping a="+a+ " b="+b);
     }
-
 }
