@@ -31,5 +31,14 @@ public class Input {
 //        System.out.println(arr[5]); //Index out of bound error
 
         //array of objects 
+         String str[] = new String[5];
+        for (int i = 0; i < str.length; i++) {
+            str[i] = in.next();
+
+        }
+        System.out.println(Arrays.toString(str));
+        //modify
+        str[0]="Akshad";
+        System.out.println(Arrays.toString(str));
     }
 }
