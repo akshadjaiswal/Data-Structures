@@ -17,33 +17,33 @@ public class EvenDigits {
         return count;
     }
 
-    //function to check wether the number contains even digits or not
+    //function to check wether the number contains even digits or not.
     static boolean even(int num) {
         int numberOfDigits = digits2(num);
        /* if (numberOfDigits % 2 == 0) return true;
         else return false;*/
         return numberOfDigits % 2 == 0;
     }
-    //optimized digit finfing method
+    //optimized digit finfing method.
     static int digits2(int num) {
         if (num < 0) {
             num = num * -1;
         }
         return (int) (Math.log10(num)) + 1;
     }
-    //count the number of the digitd
-    // static int digits(int num) {
-    //     if (num < 0) {
-    //         num = num * -1;
-    //     }
-    //     if (num == 0) {
-    //         return 1;
-    //     }
-    //     int count = 0;
-    //     while (num > 0) {
-    //         count++;
-    //         num = num / 10;
-    //     }
-    //     return count;
-    // }
+   /* count the number of the digitd
+    static int digits(int num) {
+        if (num < 0) {
+            num = num * -1;
+        }
+        if (num == 0) {
+            return 1;
+        }
+        int count = 0;
+        while (num > 0) {
+            count++;
+            num = num / 10;
+        }
+        return count;
+    }*/
 }
