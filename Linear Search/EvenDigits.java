@@ -31,7 +31,7 @@ public class EvenDigits {
         }
         return (int) (Math.log10(num)) + 1;
     }
-   /* count the number of the digitd
+   /* count the number of the digit
     static int digits(int num) {
         if (num < 0) {
             num = num * -1;
