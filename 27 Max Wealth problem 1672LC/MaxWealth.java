@@ -1,5 +1,5 @@
 //leetcode 
-class Solution {
+class MaxWealth {
     public int maximumWealth(int[][] accounts) {
        int ans = Integer.MIN_VALUE;
         for (int[] ints : accounts) {
