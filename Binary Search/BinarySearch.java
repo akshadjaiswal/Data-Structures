@@ -9,8 +9,10 @@ public class BinarySearch {
     static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
-        //find middle element
+       
         while (start <= end) {
+             //find middle element
+            // int mid= (start+end)/2; it might be possibilty that the valye of (start+end) may exceeds the range of the integer.
             int mid = start + (end - start) / 2;
             if (target < arr[mid]) {
                 end = mid - 1;
