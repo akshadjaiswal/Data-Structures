@@ -9,6 +9,7 @@ public class BinarySearch {
     static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
+        //find middle element
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (target < arr[mid]) {
@@ -16,6 +17,7 @@ public class BinarySearch {
             } else if (target > arr[mid]) {
                 start = mid + 1;
             } else {
+                //ans found
                 return mid;
             }
         }
