@@ -1,0 +1,1 @@
+//when the array is sorted but you dont know where it is ascending or descending then it order agnostic search will find the order
