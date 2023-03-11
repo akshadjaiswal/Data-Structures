@@ -30,6 +30,7 @@ public class FirstAndLastPosition {
             } else if (target > nums[mid]) {
                 start = mid + 1;
             } else {
+                //potential answer
                 ans = mid;
                 if (findStartIndex) {
                     end = mid - 1;
