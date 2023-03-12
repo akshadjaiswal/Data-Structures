@@ -7,10 +7,15 @@ public class InfiniteArray {
     }
 
     static int ans(int[] arr, int target) {
+        //first find range
+        //first start range with box of size 2
         int start = 0;
         int end = 1;
+        //condition of target lie in range
         while (target > arr[end]) {
-            int temp = end + 1;
+            int temp = end + 1;//this is our new start
+            //double the box value
+            //end=previous end +SizeofBox*2
             end = end + (end - start + 1) * 2;
             start = temp;
         }
