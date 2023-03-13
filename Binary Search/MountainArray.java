@@ -1,6 +1,9 @@
+import Arrays.util.*;
 public class MountainArray {
     public static void main(String[] args) {
-
+        int []arr={0,1,2,3,2,1,0};
+        int ans=peakIndexInMountainArray(arr);
+        SYstem.out.println(Arrays.toString(ans));
     }
     // https://leetcode.com/problems/peak-index-in-a-mountain-array/
     public int peakIndexInMountainArray(int[] arr) {
