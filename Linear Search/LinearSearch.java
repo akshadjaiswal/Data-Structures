@@ -27,7 +27,7 @@ public class LinearSearch {
         return false;
     }
 
-    //for returning a index
+//for returning a index
 //    static int linearSearch(int[] arr, int target) {
 //        if (arr.length == 0) {
 //            return -1;
