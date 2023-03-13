@@ -2,7 +2,7 @@ public class SmallestLetter {
     public static void main(String[] args) {
         //find ceiling-find smallest number>=target
         char[] letters = {'c', 'f', 'j'};
-        char target = 'a';
+        char target = 'f';
         char ans = smallestLetter(letters, target);
         System.out.println(ans);
     }
