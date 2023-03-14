@@ -9,7 +9,7 @@ public class SearchInMountain {
         if (firstTry != -1) {
             return firstTry;
         }
-        // try to search in second half
+        // try to search in second half of the array
         return orderAgnosticBS(arr, target, peak+1, arr.length - 1);
     }
 
