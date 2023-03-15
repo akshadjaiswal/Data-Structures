@@ -5,7 +5,7 @@ public class Switch {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the any fruit from - mango,apple,orange,cherry");
         String fruit = in.next();
-
+        //Switch statements
         switch (fruit) {
             case ("mango"):
                 System.out.println("King of the fruit");
@@ -19,6 +19,7 @@ public class Switch {
             case ("cherry"):
                 System.out.println("Small fruit");
                 break;
+            //if nothing executes the  execute this default thing
             default:
                 System.out.println("Enter Valid fruit");
                 break;
