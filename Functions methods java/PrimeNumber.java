@@ -8,7 +8,7 @@ public class PrimeNumber {
         boolean ans = isPrime(n);
         System.out.println(ans);
     }
-
+    //Function
     static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
