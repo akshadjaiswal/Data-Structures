@@ -1,14 +1,14 @@
 class ArrayDemo {
     public static void main(String[] args) {
-        
+        // declares an array of integers
         int[] anArray;
 
-        
+         // allocates memory for 10 integers
         anArray = new int[10];
            
-       
+        // initialize first element
         anArray[0] = 100;
-       
+        // initialize second element
         anArray[1] = 200;
        
         anArray[2] = 300;
