@@ -31,6 +31,6 @@ public class SplitSum {
             }
         }
 
-        return end;
+        return end;//here start == end
     }
 }
