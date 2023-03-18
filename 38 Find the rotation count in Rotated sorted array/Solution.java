@@ -9,7 +9,7 @@ public class Solution {
         return ans + 1;
 
     }
-    
+    //use when the array contain no duplicates
     static int Findpivot(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
@@ -32,6 +32,7 @@ public class Solution {
         return -1;
     }
 
+    //use this when array contain no duplicates
     static int FindpivotWithDuplicates(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
