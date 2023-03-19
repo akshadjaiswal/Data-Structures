@@ -7,12 +7,13 @@ class main2{
 
         x=in.nextInt();
         y=in.nextInt();
-
+        //Before swapping values of x and y
         System.out.println("Before Swapping\nx="+x+"\ny="+y);
 
         x=x+y;
         y=x-y;
         x=x-y;
+        //After swapping values
         System.out.println("After Swapping Swapping\nx="+x+"\ny="+y);
     }
 }
