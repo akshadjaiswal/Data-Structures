@@ -6,7 +6,7 @@ public class Swap {
         swap(arr, 0, 1);
         System.out.println(Arrays.toString(arr));
     }
-
+    //swap using functions
     static void swap(int[] arr, int index1, int index2) {
         int temp = arr[index1];
         arr[index1] = arr[index2];
