@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SearchIn2DArray {
+public class SearchIn2DArrays {
     public static void main(String[] args) {
         //Q. Check the given element is present in array or not.
         //Also print the array int matrix form.
