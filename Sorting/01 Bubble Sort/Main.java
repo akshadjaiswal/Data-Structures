@@ -22,7 +22,7 @@ public class Main {
           swapped = true;
         }
       }
-      //if you did not swapped for the particular value of i then it means the array is sorted already then stop.
+      //if you did not swapped for the particular value of i then it means  array is sorted already then stop loop.
       if (!swapped) {
         break;
       }
