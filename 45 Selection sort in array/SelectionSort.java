@@ -16,7 +16,6 @@ public class SelectionSort {
       swap(arr, maxIndex, last);
     }
   }
-
   static void swap(int[] arr, int first, int second) {
     int temp = arr[first];
     arr[first] = arr[second];
