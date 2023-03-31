@@ -18,6 +18,7 @@ public class DissapearedList {
         i++;
       }
     }
+    //finding disappeared numbers
     List<Integer> ans = new ArrayList<>();
     for (int Index = 0; Index < nums.length; Index++) {
       if (nums[Index] != Index + 1) {
