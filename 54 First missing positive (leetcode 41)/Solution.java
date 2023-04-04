@@ -10,7 +10,7 @@ class Solution {
         i++;
       }
     }
-    //find missing number
+    //finding the first missing positive number  number
     for (int index = 0; index < arr.length; index++) {
       if (arr[index] != index + 1) {
         return index + 1;
