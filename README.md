@@ -17,7 +17,7 @@
 - Binary Search Interview Question - Google, Facebook, Amazon.
 - Binary Search in 2D Arrays.
 - Bubble Sort Algorithm - Theory + Code.
-- Selection Sort Algorithm - Theory + Code
-- Insertion Sort Algorithm - Theory + Code
+- Selection Sort Algorithm - Theory + Code.
+- Insertion Sort Algorithm - Theory + Code.
 - Cycle Sort Interview Question - Google, Facebook, Amazon.
 - String and String Builder in Java.
