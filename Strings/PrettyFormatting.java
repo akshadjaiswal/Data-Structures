@@ -1,4 +1,4 @@
-public class PreetyPrinting {
+public class PrettyPrinting {
 
   public static void main(String[] args) {
     float f = 2.3453f;
