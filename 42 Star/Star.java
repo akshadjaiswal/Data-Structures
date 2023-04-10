@@ -1,4 +1,4 @@
-class Stars {
+class Star {
 
   public static void main(String[] args) {
     int row, numberOfStars;
