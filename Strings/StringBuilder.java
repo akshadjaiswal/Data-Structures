@@ -9,6 +9,7 @@ public class StringBuilder {
     System.out.println(Builder.toString());
     //Builder.deleteCharAt(0);
     //System.out.println(Builder.toString());
+
     Builder.reverse();
     System.out.println(Builder.toString());
   }
