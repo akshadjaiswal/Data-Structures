@@ -22,8 +22,4 @@
 - Cycle Sort Interview Question - Google, Facebook, Amazon.
 - String and String Builder in Java.
 - Solving pattern questions.
-<<<<<<< HEAD
 - Recursion. 
-=======
-- Recursion and concepts.
->>>>>>> 16660f113c3ca9a8548604ac793168141950d02f
