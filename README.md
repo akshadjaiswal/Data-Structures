@@ -4,7 +4,7 @@
 - Coding daily.
 - 💻🔁.
 
-# Concepts-
+# Concepts:-
 - Git and Github.
 - Java Architecture.
 - Input/Output, Dubugging and Datatypes.
