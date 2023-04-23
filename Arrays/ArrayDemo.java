@@ -17,7 +17,7 @@ class ArrayDemo {
         anArray[6] = 700;
         anArray[7] = 800;
         anArray[8] = 900;
-        anArray[9] = 1000;
+        anArray[9] = 10000;
 
         System.out.println("Element at index 0: "
                            + anArray[0]);
