@@ -7,7 +7,7 @@
 # Concepts:-
 - Git and Github.
 - Java Architecture.
-- Input/Output, Dubugging and Datatypes.
+- Input/Output,Dubugging and Datatypes.
 - Conditionals and Loops.
 - Switch Statements + Nested Cases.
 - Functions / Methods in Java.
